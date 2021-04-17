@@ -48,7 +48,7 @@ jobs:
           name: build
           path: build
       - name: Depoy to Firebase
-        uses: clone-6a18b/firebase-action@master
+        uses: tushipandit/firebase-action@master
         with:
           args: deploy --only hosting
         env:
