@@ -19,9 +19,11 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "build:production": "node --version"
+    "build:prod": "node --version",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
 
   },
   "eslintConfig": {
