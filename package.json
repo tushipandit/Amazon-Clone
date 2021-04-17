@@ -19,7 +19,7 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "build:prod": "node --version",
+    "build-prod": "node --version",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "react-scripts start",
     "build": "react-scripts build",
